@@ -1,0 +1,1 @@
+include ':EventBus', ':Log4j', ':Picasa', ':ButterKnife', ':Gson', ':ActiveAndroid', ':Retrofit', ':AndroidViewAnimations'
