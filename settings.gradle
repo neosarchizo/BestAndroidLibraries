@@ -1,1 +1,1 @@
-include ':EventBus', ':ButterKnife', ':Gson', ':ActiveAndroid', ':Retrofit', ':AndroidViewAnimations'
+include ':EventBus', ':ButterKnife', ':Gson', ':ActiveAndroid', ':Retrofit', ':AndroidViewAnimations', ':Picasa'
