@@ -20,28 +20,31 @@ public class MyFragment extends Fragment {
 
     }
 
+    //이벤트 수신 등록
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mEventBus.register(this);
     }
 
+    //이벤트 수신 해제
     @Override
     public void onDestroy() {
         mEventBus.unregister(this);
         super.onDestroy();
     }
 
+    //수신 이벤트 타입 선언
+    public void onEvent(MyEvent myEvent) {
+        mTxtReceivedEvent.setText("Event is fired!!");
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_my, container, false);
-        mTxtReceivedEvent = (TextView)view.findViewById(R.id.txtReceivedEvent);
+        mTxtReceivedEvent = (TextView) view.findViewById(R.id.txtReceivedEvent);
         return view;
-    }
-
-    public void onEvent(MyEvent myEvent) {
-        mTxtReceivedEvent.setText("Event is fired!!");
     }
 
 
