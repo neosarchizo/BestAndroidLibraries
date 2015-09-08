@@ -15,7 +15,7 @@
             <option value="$PROJECT_DIR$/EventBus" />
             <option value="$PROJECT_DIR$/Gson" />
             <option value="$PROJECT_DIR$/Log4j" />
-            <option value="$PROJECT_DIR$/Picasa" />
+            <option value="$PROJECT_DIR$/Picasso" />
             <option value="$PROJECT_DIR$/Retrofit" />
           </set>
         </option>

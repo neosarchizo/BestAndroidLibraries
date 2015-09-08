@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/EventBus/EventBus.iml" filepath="$PROJECT_DIR$/EventBus/EventBus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gson/Gson.iml" filepath="$PROJECT_DIR$/Gson/Gson.iml" />
       <module fileurl="file://$PROJECT_DIR$/Log4j/Log4j.iml" filepath="$PROJECT_DIR$/Log4j/Log4j.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Picasa/Picasa.iml" filepath="$PROJECT_DIR$/Picasa/Picasa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Picasso/Picasso.iml" filepath="$PROJECT_DIR$/Picasso/Picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/Retrofit/Retrofit.iml" filepath="$PROJECT_DIR$/Retrofit/Retrofit.iml" />
     </modules>
   </component>
